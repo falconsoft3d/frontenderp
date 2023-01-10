@@ -3,7 +3,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { AuthContextProvider } from '../src/context/AuthContext';
 import { useRouter } from 'next/router'
 import ProtectedRoute from '../src/components/ProtectedRoute'
-import "bootstrap/dist/css/bootstrap.min.css"; // Import bootstrap CSS
+import "bootswatch/dist/materia/bootstrap.min.css"; // Import bootstrap CSS
 import React, { useEffect } from 'react';
 
 const noAuthRequired = ['/',
@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
   const router = useRouter()
   
   useEffect(() => {
-    require("bootstrap/dist/js/bootstrap.min.js");
+    require('bootstrap/dist/js/bootstrap.bundle.min.js'); // Import bootstrap JS
   }, []);
 
   return (
