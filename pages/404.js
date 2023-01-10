@@ -1,4 +1,4 @@
-import Layout from "../src/components/Layout";
+import Layout from '../src/layouts/BasicLayout'
 import Link from "next/link";
 
 const Custom404 = () => (

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Link from 'next/link';
-import Layout from '../src/components/Layout';
+import Layout from '../src/layouts/BasicLayout'
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import { toast } from 'react-toastify';
